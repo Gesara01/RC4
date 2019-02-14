@@ -31,7 +31,6 @@ def PRGA(S, M):
         temp = (S[i] + S[j]) % 256
         K[l] = S[temp]
         l += 1
-    print(K)
     return K
         
 def main():
