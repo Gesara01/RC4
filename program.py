@@ -42,7 +42,6 @@ def main():
     K = convert_key(K)
  
     M = convert_key(M)
-    print(M)
     S = KSA(K)
     K = PRGA(S,M)
     
