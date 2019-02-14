@@ -57,7 +57,7 @@ def main():
     
     print(str.join("",("%02X" % i for i in E)))
 
-    return
+    return 
 
 if __name__ == "__main__":
     main()
